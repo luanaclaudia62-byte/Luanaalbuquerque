@@ -1,0 +1,50 @@
+:root{
+--rosa: #ed71f6;
+--azul: #483bdc;
+--texto: #c63d38;
+--link: #1730d4;
+--fundo: #d2e337;
+}
+body{ 
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: var(--fundo);
+
+}
+h1, h2, h3{ 
+    font-family: Arial, Helvetica;
+}
+
+.titulo{
+    text-align: center;
+}
+
+a { 
+    text-decoration: none;
+    color: var(--azul);
+}
+
+a:hover {
+    color: var(--link);
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    }
+
+.card {
+    width: 220px;
+    padding: 20px;
+    background-color: var(--rosa);
+    border-radius: 20px;
+    text-align: center;
+    
+}
+.card img {
+    width: 70%;
+    
+    border-radius: 20px;
+
+}
